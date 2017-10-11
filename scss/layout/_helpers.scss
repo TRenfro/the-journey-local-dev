@@ -3,6 +3,10 @@
 //==================================
 //Mobile Only
 @media all and (max-width: 480px) {
+	.no-padding-mobile {
+		padding: 0 !important;
+	}
+
 	.pd-top-20-mobile {
 		padding-top: 20px;	
 	}

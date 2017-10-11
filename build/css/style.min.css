@@ -5808,6 +5808,8 @@ button.close {
     display: none !important; } }
 
 @media all and (max-width: 480px) {
+  .no-padding-mobile {
+    padding: 0 !important; }
   .pd-top-20-mobile {
     padding-top: 20px; }
   .pd-right-20-mobile {
@@ -6317,6 +6319,13 @@ button.close {
   display: block;
   margin: 0 auto;
   width: 250px; }
+  .footer-find-location-bar .action-icon {
+    cursor: pointer;
+    user-select: none; }
+    .footer-find-location-bar .action-icon.fa {
+      color: #f14e4a;
+      font-size: 19px;
+      padding-left: 10px; }
   .footer-find-location-bar h2 {
     padding: 15px; }
 
@@ -6325,6 +6334,16 @@ footer * {
 
 footer .fa {
   font-size: 24px; }
+
+footer .locations-container {
+  transition: all 350ms;
+  height: 120px;
+  overflow: hidden; }
+  footer .locations-container.hide-locations-container {
+    height: 0;
+    padding: 0; }
+    footer .locations-container.hide-locations-container .col-xs-12 {
+      height: 0; }
 
 footer .footer-text {
   line-height: 99%; }
@@ -6364,6 +6383,8 @@ p.panel-text-tab {
 
 .basic-template-jumbotron {
   height: 100vh;
+  min-height: 700px;
+  height: 750px;
   padding-top: 185px; }
   .basic-template-jumbotron .banner-text {
     margin: 60px auto 0 auto; }
@@ -6405,7 +6426,16 @@ a.tab-arrow.no-bottom.red-text {
   background-color: #00323f; }
 
 .blue-gradient-bg {
-  background: linear-gradient(#00323f, #002028); }
+  background: #003340;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #003340 0%, #0d3643 50%, #0d3643 50%, #0d3643 0%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #003340 0%, #0d3643 50%, #0d3643 50%, #0d3643 0%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #003340 0%, #0d3643 50%, #0d3643 50%, #0d3643 0%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003340', endColorstr='#0d3643',GradientType=0 );
+  /* IE6-9 */ }
 
 .red-bg {
   background-color: #f14e4a; }
@@ -6418,6 +6448,15 @@ a.tab-arrow.no-bottom.red-text {
 
 .cyan-bg {
   background-color: #4ae3f1; }
+
+.pattern-bg {
+  position: absolute;
+  display: block;
+  background: blue;
+  width: 100%;
+  height: 650px;
+  z-index: -1;
+  bottom: 0; }
 
 .btn-outline-blue-text {
   background: transparent;
