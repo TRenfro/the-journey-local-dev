@@ -6459,6 +6459,12 @@ a.tab-arrow.no-bottom.red-text {
   .location-template-jumbotron .banner-text {
     margin: 60px auto 0 auto; }
 
+.white-opaque-hr {
+  border-top: none;
+  border-right: none;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.4);
+  border-left: none; }
+
 @media all and (max-width: 480px) {
   .white-bg-mobile {
     background-color: white; } }
@@ -6552,12 +6558,14 @@ a.tab-arrow.no-bottom.red-text {
   text-transform: uppercase;
   border-bottom: solid 2px #f14e4a;
   padding-bottom: 5px; }
+  .link-text:hover, .link-text:focus, .link-text:visited {
+    text-decoration: none; }
 
 .banner-text {
   font-family: "Oswald", "Impact";
   background: #f14e4a;
   height: 49px;
-  width: 168px;
+  width: 250px;
   padding: 13px;
   color: white;
   font-weight: 400;

@@ -41,13 +41,18 @@
     text-transform: uppercase;
     border-bottom: solid 2px $red;
     padding-bottom: 5px;
+        &:hover,
+        &:focus,
+        &:visited {
+            text-decoration: none;
+        }
 }
 
 @mixin banner-text {
     font-family: $headline-2;
     background: $red;
     height: 49px;
-    width: 168px;
+    width: 250px;
     padding: 13px;
     color: white;
     font-weight: 400;
