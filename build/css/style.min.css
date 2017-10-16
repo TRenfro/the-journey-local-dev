@@ -6395,6 +6395,12 @@ footer .footer-text {
   border-image: linear-gradient(to top, black, transparent) 1 100%;
   z-index: 1; }
 
+.sticky-location-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999; }
+
 @media all and (max-width: 480px) {
   footer p.footer-text {
     line-height: 180%; } }

@@ -117,6 +117,13 @@ footer .footer-text {
     z-index: 1;
 }
 
+
+.sticky-location-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
 //==================================
 // responsive styles
 //==================================
