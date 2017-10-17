@@ -6549,6 +6549,14 @@ a.tab-arrow.no-bottom.red-text {
   color: white;
   border: solid 3px #f14e4a; }
 
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures, contextual;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt'; }
+
 .hero-headline {
   font-family: "freight-text-pro", Georgia;
   font-size: 40px;
