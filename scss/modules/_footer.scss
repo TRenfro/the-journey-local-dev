@@ -38,10 +38,37 @@ footer {
      }
 
      .locations-container {
-
         transition: all 350ms;
         height: 120px;
         overflow:hidden;
+
+        @include respond-to($tablet-portrait) {
+            height: 70px;
+            .col-xs-12 {
+                padding: 8px;
+            }
+
+            .headline-2 {
+                font-size: 12px !important;
+                text-align: center;
+                padding-top: 0;
+                margin-top: 0;
+            }
+        }
+        @include respond-to($tablet-landscape) {
+            height: 70px;
+            .col-xs-12 {
+                padding: 8px;
+            }
+
+            .headline-2 {
+                font-size: 12px;
+                text-align: center;
+                padding-top: 0;
+                margin-top: 0;
+
+            }
+        }
 
         &.hide-locations-container {
             height: 0;

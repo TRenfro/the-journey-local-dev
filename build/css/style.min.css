@@ -6342,6 +6342,26 @@ footer .locations-container {
   transition: all 350ms;
   height: 120px;
   overflow: hidden; }
+  @media only screen and (max-width: 767px) {
+    footer .locations-container {
+      height: 70px; }
+      footer .locations-container .col-xs-12 {
+        padding: 8px; }
+      footer .locations-container .headline-2 {
+        font-size: 12px !important;
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
+    footer .locations-container {
+      height: 70px; }
+      footer .locations-container .col-xs-12 {
+        padding: 8px; }
+      footer .locations-container .headline-2 {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0; } }
   footer .locations-container.hide-locations-container {
     height: 0;
     padding: 0; }
