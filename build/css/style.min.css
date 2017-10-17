@@ -6365,7 +6365,7 @@ footer .icon-container {
   footer .icon-container ul {
     display: inline; }
     footer .icon-container ul li {
-      margin-right: -3px;
+      margin-right: -5px;
       padding-left: 12px;
       padding-right: 12px;
       cursor: pointer; }
@@ -6629,3 +6629,9 @@ a.tab-arrow.no-bottom.red-text {
 @media all and (max-width: 480px) {
   .text-center-xs {
     text-align: center; } }
+
+.red-svg {
+  fill: #f14e4a; }
+
+.white-svg {
+  fill: white; }
