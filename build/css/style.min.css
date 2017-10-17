@@ -6338,6 +6338,12 @@ footer * {
 footer .fa {
   font-size: 24px; }
 
+footer .locations-footer-menu.sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999; }
+
 footer .locations-container {
   transition: all 350ms;
   height: 120px;
